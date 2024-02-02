@@ -1,2 +1,2 @@
 # helpchen
-help Mrs chen yong on issues with github
+Help Mrs chen yong on issues with github

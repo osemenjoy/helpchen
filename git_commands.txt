@@ -1,0 +1,61 @@
+GIT COMMANDS
+
+1. git init:
+   - Initializes a new Git repository in the current directory.
+
+2. git clone [repository-url]:
+   - Copies a repository from a specified URL to your local machine.
+
+3. git add . 
+   - Adds all changes in the working directory to the staging area.
+
+4. git commit -m "[commit-message]":
+   - Records changes to the repository with a brief commit message.
+
+5. git status:
+   - Shows the status of changes as untracked, modified, or staged.
+
+6. git log
+   - Displays a log of all commits in the current branch.
+
+7. git branch:
+   - Lists all local branches, indicating the current active branch.
+
+8. git branch [branch-name]:
+   - Creates a new branch with the specified name.
+
+9. git checkout [branch-name]:
+    - Switches to the specified branch.
+
+10. git merge [branch-name]: 
+    - Merges changes from the specified branch into the current branch.
+
+11. git pull:
+    - Fetches changes from the remote repository and merges them into the current branch.
+
+12. git push [remote] [branch]:
+    - Pushes committed changes to a remote repository and branch.
+
+13. git remote -v:
+    - Displays a list of remote repositories currently associated with your local repository.
+
+14. git fetch [remote]:
+    - Fetches changes from a remote repository without merging them.
+
+15. git diff:
+    - Shows the differences between the working directory and the last commit.
+
+16. git reset [file]:
+    - Unstages the specified file, leaving the working directory unchanged.
+
+17. git revert [commit]:
+    - Creates a new commit that undoes the changes made in a previous commit.
+
+18. git rm [file]:
+    - Removes a file from both the working directory and the Git repository.
+
+19. git stash:
+    - Temporarily saves changes that are not ready to be committed, allowing you to switch branches without committing.
+
+20. git -u origin master:
+    -  This command is used to push the local branch named "master" to the remote repository named "origin" and set up tracking.
